@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Post from '../../public/images/post.png'
 import InputField from './form/InputField'
-import { useState } from 'react';
+import { useState, ChangeEvent, FormEvent  } from 'react';
 
 interface User {
     name: string;
@@ -17,9 +17,9 @@ const user: User = {
 }
 
 const Connect = () => {
-    const [formData, setFormData] = useState(user)
+    const [formData, setFormData] = useState<User>(user)
 
-    const handleInputChange = (e) => {
+    const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
@@ -27,7 +27,7 @@ const Connect = () => {
         });
     }
     
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         console.log('Form submitted with data:', formData);
     };
