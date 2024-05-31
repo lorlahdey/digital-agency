@@ -12,7 +12,7 @@ const Specialties = () => {
                         <div>
                             <h3 className='hidden lg:block text-[28px] lg:text-[70px] leading-[36px] lg:leading-[80px] mb-[18px] lg:mb-[20px]'>We help our clients succeed.</h3>
                             <h3 className='block lg:hidden text-[28px] lg:text-[70px] leading-[36px] lg:leading-[80px] mb-[18px] lg:mb-[20px]'>We are a creative studio that inspires.</h3>
-                            <span className='text-[14px]  lg:text-[24px] font-400'>Through careful analysis, creative thinking, and a deep understanding of their goals, we empower businesses to surpass expectations and thrive in today's dynamic and competitive landscape.</span>
+                            <span className='text-[14px]  lg:text-[24px] font-400'>Through careful analysis, creative thinking, and a deep understanding of their goals, we empower businesses to surpass expectations and thrive in today&apos;s dynamic and competitive landscape.</span>
                         </div>
                         <Image
                                 className='block lg:hidden my-[30px]'

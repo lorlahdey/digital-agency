@@ -30,7 +30,7 @@ const Header = () => {
                                 <li className=""><Link  href='#our-story'>Our story</Link></li>
                                 <li className=""><Link href='#our-works'>Our works</Link></li>
                                 <li className=""><Link href='#service'>Service</Link></li>
-                                <li className="bg-black text-white rounded py-1.5 px-2.5"><Link href='#contact-us'>Let's connent</Link></li>
+                                <li className="bg-black text-white rounded py-1.5 px-2.5"><Link href='#contact-us'>Let&apos;s connent</Link></li>
                             </ul>
                         </div>
                         <div className="absolute block sm:hidden right-[30px]">
@@ -47,7 +47,7 @@ const Header = () => {
                                     <li className=""><Link  href='#our-story'>Our Story</Link></li>
                                     <li className=""><Link href='#our-works'>Our works</Link></li>
                                     <li className=""><Link href='#service'>Service</Link></li>
-                                    <li className="bg-black text-white rounded py-1.5 px-2.5"><Link href='#contact-us'>Let's connent</Link></li>
+                                    <li className="bg-black text-white rounded py-1.5 px-2.5"><Link href='#contact-us'>Let&apos;s connent</Link></li>
                                 </ul>
                             </div>
                         )}

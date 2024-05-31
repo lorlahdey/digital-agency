@@ -39,7 +39,7 @@ const Connect = () => {
                 <div className='flex flex-col lg:flex-row'>
                     <div className='flex flex-col justify-between lg:pe-[54px] lg:border-r-[1px] border-black'>
                         <h3 className='mb-[18px] lg:mb-0 text-[28px] lg:text-[70px] leading-[36px] lg:leading-[80px]'>
-                        Let’s bring your brand to the next level.</h3>
+                        Let&apos;s bring your brand to the next level.</h3>
                         <Image
                             className='hidden lg:block'
                             src={Post}
@@ -47,7 +47,7 @@ const Connect = () => {
                         />
                     </div>
                     <div className='lg:ps-[54px]'>
-                        <p className='text-[14px] lg:text-[24px] mb-[30px] lg:mb-[80px]'>Together, let's elevate your brand to new heights by unleashing its full potential and captivating your target audience.</p>
+                        <p className='text-[14px] lg:text-[24px] mb-[30px] lg:mb-[80px]'>Together, let&apos;s elevate your brand to new heights by unleashing its full potential and captivating your target audience.</p>
                         <div id='newletters'>
                             <h2  className='text-[34px] lg:text-[54px] lg:mb-[41px]'>SUBSCRIBE TO OUR NEWSLETTER</h2>
                             <div className='my-[30px] lg:my-0'>
