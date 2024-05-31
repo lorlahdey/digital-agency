@@ -34,7 +34,6 @@ const Connect = () => {
 
     return (
         <div id='contact-us'>
-
             <div className="py-[30px] lg:py-[40px]">
                 <h4 className='mb-[40px] text-[18px] text-[#868686]'>We Can Connect</h4>
                 <div className='flex flex-col lg:flex-row'>
